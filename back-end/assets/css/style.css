@@ -1,0 +1,395 @@
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: "Ubuntu", sans-serif;
+}
+/* ============== line height =========== */
+.line_height_18{
+    line-height: 18px;
+}
+/* ==================== height and width ======================== */
+.vh_100{
+    height: 100vh;
+}
+.w_60{
+    width: 60%;
+}
+/* ======================= margin padding ===================  */
+.mr_30{
+    margin-right: 30px;
+}
+/* ======================= fonts ===================  */
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+/* ====================== text size ======================= */
+.text_60{
+    font-size: 60px;
+    line-height: 1.1;
+}
+.text_56{
+    font-size: 56px;
+}
+.text_48{
+    font-size: 48px;
+}
+.text_40{
+    font-size: 40px;
+}
+.text_36{
+    font-size: 36px;
+}
+.text_32{
+    font-size: 32px;
+}
+.text_28{
+    font-size: 28px;
+}
+.text_24{
+    font-size: 24px;
+}
+.text_20{
+    font-size: 20px;
+}
+.text_14{
+    font-size: 14px;
+}
+.text_12{
+    font-size: 12px;
+}
+.text_11{
+    font-size: 11px;
+}
+ 
+/* ==================== text color ========================= */
+.text_yellow{
+    color: #FBBE41;
+}
+.text_white{
+    color: white;
+}
+.text_dark{
+    color: #000;
+}
+.text_gray{
+    color: #52525B;
+}
+.text_blue{
+    color: #128EDE;
+}
+.text_deep_blue{
+    color: #0011FF;
+}
+.text_gray_dark{
+    color: #444;
+}
+.text_red{
+    color: red;
+}
+.text_green{
+    color: #15a51d;
+}
+/* ==================== background color ========================= */
+.bg_yellow{
+    background: #FBBE41;
+}
+.bg_white{
+    background: white;
+}
+.bg_green{
+    background: #00990F;
+}
+.bg_black_light{
+    background: #7B7B7B;
+}
+/* ================ buttons ==================== */
+.primary_btn{
+    color: #fff;
+    padding: 5px 14px; 
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.primary_btn:hover {
+    color: #000;
+}
+.black_u_btn {
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    border-radius: 5px;
+    padding: 2px 5px; 
+    color: #000;
+}
+.yellow_u_btn {
+    text-decoration: none;
+    border-bottom: 2px solid #FBBE41;
+    border-radius: 5px;
+    padding: 2px 5px; 
+    color: #FBBE41;
+}
+.green_btn {
+    border-radius: 8px;
+    font-weight: 700;
+}
+.withdraw_btn_img{
+    transform: rotate(-180deg);
+    margin-bottom: 5px;
+}
+/* ================== border ======================= */
+.border_1_bb{
+    border-bottom: 1px solid #000;
+}
+.border_1_by{
+    border-bottom: 1px solid #FBBE41;
+}
+.border_1_blue{
+    border-bottom: 1px solid #128EDE;
+}
+.round_yellow_border{
+    border: 1px solid #FBBE41;
+}
+/* side bar nav for admin  */
+#side_nav{
+    background: #D9D9D9;
+    min-width: 345px;
+    max-width: 345px;
+    transition: all 0.3s;
+}
+.profile {
+    height: 48px;
+    width: 48px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.content{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sidebar li.active{
+    background: #FBBE41;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover {
+    color: #fff;
+}
+.sidebar li{
+    margin: 20px 0px;
+}
+.sidebar li a{
+    color: #404040;
+    font-size: 18px;
+}
+.sidebar li a i{
+   margin-right: 15px;
+}
+/* mobile menu ber  */
+.header-box{
+    position: relative;
+}
+.menu_mobile{
+    position:absolute;
+    right: 10px;
+    top: 18%;
+    font-size: 22px;
+}
+/* dashboard */
+.bg_gray_deep{
+    background: #EBECF0;
+    border-radius: 16px;
+}
+.hashrate_round {
+    border: 3px solid #959595;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.hash_table{
+    margin: 0 auto;
+    width: 95%;
+}
+.hash_table tr td{
+    padding: 7px 5px;
+}
+.hash_tr{
+    border-radius: 12px;
+    display: table;
+    width: 100%;
+    margin: 7px auto;
+}
+.hash_tr_withdraw{
+    background: #dda3a3;
+}
+.hash_tr_deposit{
+    background: #a1e7ac;
+}
+.hash_tr_hashed_coin{
+    background: #FBBE41;
+}
+.arrow_up_down {
+    position: absolute;
+    right: 15px;
+    top: 40%;
+
+}
+.table_top_hr{
+    width: 95%;
+    margin: 5px auto 14px;
+    background: #000;
+    opacity: 1;
+    height: 1px;
+}
+/* ------------ market place -------- */
+.hashco_input_number input {
+    border: 1px solid #FBBE41;
+    width: 50%;
+}
+.hashco_input_number input:focus {
+    box-shadow: none;
+    border: 1px solid #FBBE41;
+}
+.market_hr{
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    opacity: 1;
+}
+.currency_icon img {
+    width: 30px;
+}
+
+.currency_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px !important;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.currency_icon:hover {
+    border: 1px solid #128EDE;
+}
+.currency_icon p {
+    margin: 0;
+}
+/*================ mining ============== */
+.btn_icon_mining {
+    position: absolute;
+    right: 15px;
+    bottom: 7px;
+}
+.tb_head_mining {
+    background: #EBECF0;
+    border-radius: 8px; 
+    width: 100%;
+}
+.tb_head_mining th{
+    padding: 10px;
+}
+.tb_head_mining th:first-child {
+    border-radius: 8px 0 0 8px;
+    background: #EBECF0;
+}
+.tb_head_mining th:last-child {
+    border-radius: 0px 8px 8px 0px;
+    background: #EBECF0;
+}
+.tb_body_mining td{
+    padding: 10px;
+}
+/* ============== auto mining ============ */
+.auto_mini_gred{
+    background: url('../image/gradient.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.dual_bottom_border:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #FBBE41;
+    left: 0;
+    bottom: -15px;
+}
+
+.dual_bottom_border:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 130%;
+    background: gray;
+    bottom: -15px;
+}
+/* ================ transactions ================== */
+.hash_table_trans{
+    margin: 0 auto;
+    width: 100%;
+}
+.trans_img{
+    border-radius: 50%;
+    width: 50px;
+}
+.hash_tr td {
+    padding: 7px;
+}
+/* ================ responsive ================== */
+@media(max-width: 767px){
+    #side_nav{
+    margin-left: -345px;
+    position: absolute;
+    min-height: 100vh;
+    z-index: 1;
+
+    }
+    #side_nav.active{
+    margin-left: 0;
+    }
+    .hashco_input_number input { 
+        width: 100%;
+    }
+    .arrow_up_down{
+        right: 2px;
+    }
+    .mark_border{
+        border: none !important;
+    }
+}
