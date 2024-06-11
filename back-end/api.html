@@ -21,8 +21,8 @@
         <div class="sidebar" id="side_nav">
             <div class="header-box px-2 pt-3 pb-4 text-center">
                 <h1 class="text_56 text_yellow fw-bold">Hash<span class="text_blue">Coin</span></h1>
-                <button class="btn d-md-none d-block close-btn px-1 py-0 text-dark">
-                    <i class="fal fa-stream"></i>
+                <button class="menu_mobile btn d-md-none d-block close-btn px-1 py-0 text-dark">
+                    <i class="fas fa-times"></i>
                 </button>
                 <div class="profile mb-2">
                     <img src="assets/image/profile.jpg" alt="">
@@ -49,7 +49,7 @@
                         Mining
                     </a>
                 </li>
-                <li class="active">
+                <li class="">
                     <a href="auto-mining.html" class="text-decoration-none px-3 py-2 d-block">
                         <i class="fal fa-envelope-open-text"></i> 
                         Auto Mining
@@ -61,7 +61,7 @@
                         Transactions
                     </a>
                 </li>
-                <li class="">
+                <li class="active">
                     <a href="api.html" class="text-decoration-none px-3 py-2 d-block">
                         <i class="fal fa-users"></i>
                         API KEYS
@@ -104,35 +104,44 @@
             <!-- dashboard-content area  -->
             <div class="dashboard-content px-3 pt-5"> 
                 
-                    <div class="container">
-                        <h3 class="fw-bold text_32 mb-4">Auto Mining</h3>
-                        <h4 class="text_24 fw-bold position-relative dual_bottom_border d-inline-block">On Going Mining</h4>
-                        <div class="row mt-4 p-3">
-                            <div class="col-md-8">
-                                <div class="row auto_mini_gred rounded-3">
-                                    <div class="col-md-6 p-4">
-                                        <h4 class="text_24 fw-bold m-0">Team Alpha</h4>
-                                        <p class="fw-light m-0">Member: 170</p>
-                                        <p class="fw-light m-0">Package Shares: 100/6700</p>
-                                        <p class="fw-light m-0">Committed: 0.0219 / 0.673 BTC </p>
-                                    </div>
-                                    <div class="col-md-6 p-5">
-                                        <h4 class="text_24 fw-bold text_deep_blue">Probability: 1:367</h4>
-                                        <h5 class="text_18 fw-bold text_deep_blue">Reward: 4.52340000 BTC</h5>
-                                        <div class="text-end"> 
-                                            <a href="#" class="mt-3 green_btn d-inline-block px-3 py-2 text-decoration-none text_yellow bg-white round_yellow_border text_20 text-center text-uppercase">Join</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row text-center mt-5">
-                                    <h2 class="text_32 fw-bold">or</h2>
-                                    <a type="button" href="" class="mt-3 green_btn d-block px-3 py-2 text-decoration-none bg_yellow text_20 text-white text-center text-uppercase w-50 mx-auto"> Create Own Mining Farm</a>
-                                    <p class="fw-light">Want to know more about?<a  href="#" class="fw-bold text_20 text-decoration-none text-black"> Learn Now</a></p>
-                                </div>
-                            </div>
+                 
+                <div class="container">
+                    <div class="bg_gray_deep p-4 mb-3">
+                        <div class="">
+                            <h4 class="text_32">API Keys</h4>
+                            <p class="text_dark text_16 w_md_50 w_100">API keys allow you to perform automated actions on your account with your own software. <a href="#" class="text_blue text_16 fw-bold"> Read more</a></p>
+                            <p class="text_16">Organization ID: d7a45de3-9472-468e-9286-afa49dc534b6</p>
+                        </div>
+                        <div> 
+                            <a type="button" class="mt-3 green_btn px-3 py-2 text-decoration-none bg_yellow text_24 text-white "> Create New Api KEY </a>
                         </div>
                     </div>
-                
+                </div> 
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="w-100 text-center api_table">
+                                <thead class="api_thead">
+                                    <tr>
+                                        <td>App Name</td>
+                                        <td>Created On</td>
+                                        <td>Created By</td>
+                                        <td>Action</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="api_tbody">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
                 
                
             </div>

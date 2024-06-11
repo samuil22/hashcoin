@@ -21,8 +21,8 @@
         <div class="sidebar" id="side_nav">
             <div class="header-box px-2 pt-3 pb-4 text-center">
                 <h1 class="text_56 text_yellow fw-bold">Hash<span class="text_blue">Coin</span></h1>
-                <button class="btn d-md-none d-block close-btn px-1 py-0 text-dark">
-                    <i class="fal fa-stream"></i>
+                <button class="menu_mobile btn d-md-none d-block close-btn px-1 py-0 text-dark">
+                    <i class="fas fa-times"></i>
                 </button>
                 <div class="profile mb-2">
                     <img src="assets/image/profile.jpg" alt="">
@@ -49,7 +49,7 @@
                         Mining
                     </a>
                 </li>
-                <li class="active">
+                <li class="">
                     <a href="auto-mining.html" class="text-decoration-none px-3 py-2 d-block">
                         <i class="fal fa-envelope-open-text"></i> 
                         Auto Mining
@@ -73,7 +73,7 @@
                         Support Tickets
                     </a>
                 </li>
-                <li class="">
+                <li class="active">
                     <a href="settings.html" class="text-decoration-none px-3 py-2 d-block">
                         <i class="fal fa-users"></i>
                         Settings
@@ -104,35 +104,80 @@
             <!-- dashboard-content area  -->
             <div class="dashboard-content px-3 pt-5"> 
                 
+                
+                <div class=" d-flex justify-content-between p-3 mb-3">
                     <div class="container">
-                        <h3 class="fw-bold text_32 mb-4">Auto Mining</h3>
-                        <h4 class="text_24 fw-bold position-relative dual_bottom_border d-inline-block">On Going Mining</h4>
-                        <div class="row mt-4 p-3">
-                            <div class="col-md-8">
-                                <div class="row auto_mini_gred rounded-3">
-                                    <div class="col-md-6 p-4">
-                                        <h4 class="text_24 fw-bold m-0">Team Alpha</h4>
-                                        <p class="fw-light m-0">Member: 170</p>
-                                        <p class="fw-light m-0">Package Shares: 100/6700</p>
-                                        <p class="fw-light m-0">Committed: 0.0219 / 0.673 BTC </p>
+                        <h3 class="fw-bold text_32">General Setting</h3> 
+                        <div class="row  pt-4 ">
+                            <div class="col-md-7 bg_cream rounded-3 p-4">
+                                <form action="">
+                                    <div class="mb-3">
+                                        <label for="input1" class="form-label text_20 fw-bold">Current Email </label>
+                                        <div class="d-flex input_setting">
+                                            <input type="email" class="form-control" id="input1" placeholder="email@gmail.com">
+                                            <div class="d-flex align-items-center">
+                                                <p class="m-0 text_16 ms-4 text_green fw-bold">Verified </p>
+                                                <div>
+                                                    <img class="setting_check_img img-fluid ms-2" src="assets/image/check.png" alt="verify">
+                                                </div> 
+                                            </div>
+                                        </div> 
                                     </div>
-                                    <div class="col-md-6 p-5">
-                                        <h4 class="text_24 fw-bold text_deep_blue">Probability: 1:367</h4>
-                                        <h5 class="text_18 fw-bold text_deep_blue">Reward: 4.52340000 BTC</h5>
-                                        <div class="text-end"> 
-                                            <a href="#" class="mt-3 green_btn d-inline-block px-3 py-2 text-decoration-none text_yellow bg-white round_yellow_border text_20 text-center text-uppercase">Join</a>
+                                    <div class="mb-3">
+                                        <label for="input1" class="form-label  text_20 fw-bold">Current Phone Number </label>
+                                        <div class="d-flex input_setting">
+                                            <input type="email" class="form-control" id="input1" placeholder="+113569866462565">
+                                            <div class="d-flex align-items-center">
+                                                <div class="w-100">
+                                                    <p class="m-0 text_16 ms-4  fw-bold text-decoration-underline">Verify Now? </p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="input1" class="form-label  text_20 fw-bold">Current Password</label>
+                                        <div class="d-flex input_setting">
+                                            <input type="email" class="form-control" id="input1" placeholder="***********">
+                                            <div class="d-flex align-items-center">
+                                                <div class="w-100">
+                                                    <p class="m-0 text_16 ms-4  fw-bold text-decoration-underline">Current Password</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="mb-3 mt-2 form-check">
+                                        <input type="checkbox" class="form-check-input setting_check" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Subscribe to Newsletter</label>
+                                    </div>
+                                    <button type="submit" class="mt-2 d-inline-block green_btn px-3 py-2 text-decoration-none bg_yellow text_24 text-dark text-center border-0">Save Changes</button>
+                                </form>
+                            </div>
+                            <div class="col-md-5  mt-3 mt-md-0">
+                                <div class="d-flex flex-column h-100 gap-3">
+                                    <div class="bg_cream setting_text rounded-3 h-100">
+                                        <div class="d-flex align-items-center p-3 justify-content-center h-100">
+                                            <img class="img-fluid active_img" src="assets/image/setting-activity.png" alt="">
+                                            <p class="text_24 fw-bold m-0 ms-3">Activity History</p>
+                                        </div>
+                                    </div>
+                                    <div class="bg_cream setting_text rounded-3 h-100">
+                                        <div class="d-flex align-items-center p-3 justify-content-center h-100">
+                                            <img src="assets/image/setting-wallet.png" alt="">
+                                            <p class="text_24 fw-bold m-0 ms-3">Wallet & Withdrawal</p>
+                                        </div>
+                                    </div>
+                                    <div class="bg_cream setting_text rounded-3 h-100">
+                                        <div class="d-flex align-items-center p-3 justify-content-center h-100">
+                                            <img src="assets/image/setting-history.png" alt="">
+                                            <p class="text_24 fw-bold m-0 ms-3">Activity History</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row text-center mt-5">
-                                    <h2 class="text_32 fw-bold">or</h2>
-                                    <a type="button" href="" class="mt-3 green_btn d-block px-3 py-2 text-decoration-none bg_yellow text_20 text-white text-center text-uppercase w-50 mx-auto"> Create Own Mining Farm</a>
-                                    <p class="fw-light">Want to know more about?<a  href="#" class="fw-bold text_20 text-decoration-none text-black"> Learn Now</a></p>
-                                </div>
                             </div>
                         </div>
+                         
                     </div>
-                
+                </div>
                 
                
             </div>
