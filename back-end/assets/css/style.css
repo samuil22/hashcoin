@@ -34,6 +34,11 @@ html{
 .mr_30{
     margin-right: 30px;
 }
+
+/* ======================= flex ===================  */
+.flex_45{
+    flex: 0 0 40%;
+}
 /* ======================= fonts ===================  */
 .ubuntu-light {
     font-family: "Ubuntu", sans-serif;
@@ -84,6 +89,9 @@ html{
 }
 .text_24{
     font-size: 24px;
+}
+.text_22{
+    font-size: 22px;
 }
 .text_20{
     font-size: 20px;
@@ -217,12 +225,12 @@ html{
     width: 100%;
 }
 
-.sidebar li.active{
+.sidebar li a.active{
     background: #FBBE41;
     border-radius: 8px;
 }
 
-.sidebar li.active a, .sidebar li.active a:hover {
+.sidebar li a.active, .sidebar li a.active:hover {
     color: #fff;
 }
 .sidebar li{
@@ -362,6 +370,33 @@ html{
 .tb_body_mining td{
     padding: 10px;
 }
+/* =============== download mining ================ */
+.dropdown_menu{
+    display: none;
+}
+.menu_dropdown li{
+    list-style: none;
+    margin: 6px 10px;
+}
+.menu_dropdown li a{
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+.menu_dropdown li a.active{
+    border-radius: 20px;
+}
+.d_btn_items {
+    margin: 20px 0px;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 3px 10px 0px #00000026;
+    border-radius: 10px;
+}
+.d_img_select{
+    padding: 5px;
+}
 /* ============== auto mining ============ */
 .auto_mini_gred{
     background: url('../image/gradient.jpg');
@@ -489,5 +524,11 @@ html{
     }
     .w_100{
         width: 100%;
+    }
+    .d_img_select { 
+        height: 100px;
+    }
+    .text_56{
+        font-size: 34px;
     }
 }

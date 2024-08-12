@@ -13,3 +13,12 @@ $('.close-btn').on('click', function () {
     $('.sidebar').removeClass('active');
 
 })
+
+
+const dropClick = document.querySelector(".drp_click"); 
+
+dropClick.addEventListener("click", function () {
+  document.querySelector(".dropdown_menu").classList.toggle("d-block"); 
+
+});
+  
