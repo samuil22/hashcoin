@@ -241,7 +241,10 @@ html{
     font-size: 18px;
 }
 .sidebar li a i{
-   margin-right: 15px;
+   margin-right: 15px; 
+}
+.rotate_180{
+    transform: rotate(180deg);
 }
 /* mobile menu ber  */
 .header-box{
@@ -396,6 +399,7 @@ html{
 }
 .d_img_select{
     padding: 5px;
+    height: 120px;
 }
 /* ============== auto mining ============ */
 .auto_mini_gred{
@@ -500,8 +504,18 @@ html{
 #textarea_support:focus{
     box-shadow: none;
 }
-
+.withdraw_index_btn{
+    min-width: 135px;
+}
 /* ================ responsive ================== */
+@media(max-width: 1025px){
+    .text_48{
+        font-size: 30px;
+    }
+    .text_24{
+        font-size: 16px;
+    }
+}
 @media(max-width: 767px){
     #side_nav{
     margin-left: -345px;
@@ -530,5 +544,8 @@ html{
     }
     .text_56{
         font-size: 34px;
+    }
+    .text_48{
+        font-size: 30px;
     }
 }
